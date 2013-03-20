@@ -1,0 +1,32 @@
+{
+  "name": "oblige",
+  "version": "0.0.1",
+  "description": "Tiny task-based module for whipping up \"hookable\" build scripts",
+  "main": "index.js",
+  "dependencies": {
+    "async-series": "~0.0.1",
+    "funstance": "~0.0.2",
+    "inherits": "~1.0.0"
+  },
+  "devDependencies": {
+    "tape": "~0.3.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/oblige.git"
+  },
+  "keywords": [
+    "build",
+    "wrapper",
+    "lightweight",
+    "task",
+    "tool",
+    "control",
+    "flow"
+  ],
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "license": "MIT"
+}
